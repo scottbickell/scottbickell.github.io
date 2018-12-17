@@ -1,17 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Scott</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scott Bickell - Web Developer</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
-<h1>This is my header</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>Another paragraph</p>
-<p>Adding a third paragraph</p>
-<p>Adding a fourth paragraph. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>Adding a fifth paragraph. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>This is a sixth paragraph. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<p>This is a seventh paragraph.</p>
+    <nav class="orange" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Scott Bickell</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="index.html">Portfolio</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Portfolio</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center orange-text text-darken-2">Portfolio</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Projects from my Full Stack Coding Bootcamp at the University of
+                        Denver and other recent contract work.</h5>
+                </div>
+                <!-- <div class="row center">
+                    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange lighten-1">Get
+                        Started</a>
+                </div>
+                <br><br> -->
+
+            </div>
+        </div>
+        <div class="parallax"><img src="img/temple.jpg" alt="Borobudur, Indonesia"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/food-brewed.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Food or Brewed<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="https://chico-fa.github.io/Food-or-Brewed/index.html" target="_blank">View site</a></p>
+                            <p><a href="https://github.com/chico-fa/Food-or-Brewed" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Food or Brewed<i class="material-icons right">close</i></span>
+                            <p>A location-based food or beverage locator that uses Google Maps API, Google Places API
+                                and Geolocation API</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/al-letrs.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Alabama Grant<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="https://scottbickell.github.io/vsl-la-letrs/" target="_blank">View site</a></p>
+                            <p><a href="https://github.com/scottbickell/vsl-la-letrs" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Alabama Grant landing page<i class="material-icons right">close</i></span>
+                            <p>A Bootstrap-based landing page for winners of a grant to enroll in the Alabama LETRS
+                                <sup>&reg;</sup> <em>(Language Essentials for Teachers of Reading and Spelling)</em>
+                                course of study. </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/lang-live-email.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Literacy Grant<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="https://scottbickell.github.io/vsl-lang-live-grant/nurture-email1.html" target="_blank">View
+                                    site</a></p>
+                            <p><a href="https://github.com/scottbickell/vsl-lang-live-grant" target="_blank">View on
+                                    Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Literacy Grant email<i class="material-icons right">close</i></span>
+                            <p>Responsive email built using the <a href="https://foundation.zurb.com/emails/zurb-stack.html"
+                                    target="_blank">ZURB stack</a>. Includes Gulp build system, Inky templating, CSS
+                                and image compression, auto inlining CSS and Handlebars templates.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ROW 2 -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- ROW 3 -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col s12 m4">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/placeholder.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Project title<i class="material-icons right orange-text">more_vert</i></span>
+                            <p><a href="#" target="_blank">View site</a></p>
+                            <p><a href="#" target="_blank">View on Github</a></p>
+
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Project title<i class="material-icons right">close</i></span>
+                            <p>Lorem enibh modipsu essit utatum, consequam nulput im. Ese elis fermentum molestie
+                                nullam modionsed eugiat mincidunt inciduipit. Secte adignim enississe sem varius
+                                dolendit tortor, iscipit vulputat laore, nulputpatum adiatet blamet vestibulum.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer orange">
+
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2018 Scott Bickell
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
 </body>
+
 </html>
