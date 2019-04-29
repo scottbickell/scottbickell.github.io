@@ -1,0 +1,12 @@
+Photomongo
+New York Times webscraper
+Friend Finder
+Amazon CLI app
+Gif-tastic
+Task Tracker app
+Crystal Collector
+Liri Node app
+Food or Brewed
+Word Guess Game
+Eat da Burger
+Star Wars Express
